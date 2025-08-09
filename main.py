@@ -33,7 +33,7 @@ def setup_langsmith_tracing():
     """Initialize LangSmith tracing for monitoring and debugging"""
     try:
         # Set up LangSmith environment variables
-        langsmith_api_key = "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"
+        langsmith_api_key = "your-api-key"
         langsmith_project = "AI-Assistant-CLI"  # You can customize this project name
         
         # Set environment variables for LangSmith
@@ -246,7 +246,7 @@ def main():
         
         # Check for API key
         print_status("Checking API configuration...", "processing")
-        api_key = "AIzaSyCLT4fwlpKbuKxqiiQSPCd73-vVRkSFHG8"
+        api_key = "your-google-api-key"  # Replace with your actual API key
         
         if not api_key:
             print_status("GOOGLE_API_KEY environment variable not set", "error")
