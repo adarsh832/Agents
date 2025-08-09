@@ -1,0 +1,16 @@
+[project]
+name = "agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "comtypes>=1.4.11",
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.1.9",
+    "langchain-hyperbrowser>=0.4.1",
+    "psutil>=7.0.0",
+    "pyautogui>=0.9.54",
+    "pycaw>=20240210",
+    "screen-brightness-control>=0.24.2",
+]
